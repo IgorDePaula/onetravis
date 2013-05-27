@@ -32,7 +32,7 @@ class MathBasicTest extends PHPUnit_Framework_TestCase {
      */
     public function testSum() {
         // Remove the following lines when you implement this test.
-        $this->assertEquals(3,$this->object->sum(2,2));
+        $this->assertEquals(4,$this->object->sum(2,2));
     }
 
     /**
