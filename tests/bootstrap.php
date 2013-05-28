@@ -1,2 +1,2 @@
 <?php
-include('../MathBasic.php');
+include('MathBasic.php');
