@@ -41,9 +41,7 @@ class MathBasicTest extends PHPUnit_Framework_TestCase {
      */
     public function testSub() {
         // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-                'This test has not been implemented yet.'
-        );
+        $this->assertEquals(0,$this->object->sum(1,1));
     }
 
 }
