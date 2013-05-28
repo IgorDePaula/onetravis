@@ -2,5 +2,5 @@ language: php
 php:
   - "5.3"
 services: mysql
-beafore_script:
+before_script:
   - mysql -e 'create database zend';
