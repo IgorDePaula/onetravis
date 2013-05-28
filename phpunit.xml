@@ -1,10 +1,16 @@
 <phpunit bootstrap="tests/bootstrap.php"
-backupGlobals="false" 
-    backupStaticAttributes="false" 
-    convertErrorsToExceptions="true"  
-    convertNoticesToExceptions="true"
-    convertWarningsToExceptions="true"
-    syntaxCheck="false"
-    processIsolation="false"
-    colors="true">
+         backupGlobals="false" 
+         backupStaticAttributes="false" 
+         convertErrorsToExceptions="true"  
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         syntaxCheck="false"
+         processIsolation="false"
+         colors="true">
+    <testsuites>
+        <testsuite name="Object_Freezer">
+            <file>tests/MathBasicTest.php</file>
+            
+        </testsuite>
+    </testsuites>
 </phpunit>
